@@ -1,0 +1,120 @@
+/* Estilos Gerais */
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('images/background.png');
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+header {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section h2 {
+    border-bottom: 2px solid #1e1e1e;
+    padding-bottom: 10px;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.principalbox {
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: rgba(0,0,0,0.5)
+}
+.subbox {
+    margin: 0 auto;
+    max-width: 780px;
+    border: 1px solid #3d3d3d;
+
+}
+
+.pagebtn {
+    margin: 0;
+    font-size: 20px;
+}
+header img {
+	float: right;
+	max-width: 80px;
+}
+.subbox img {
+    width: 98%;
+    height: auto;
+    padding: 5px;
+    border: 1px solid #3d3d3d;
+}
+footer img {
+	max-width: 100px;
+}
+  a {
+    color: #00e226;
+  }
+  a:hover {
+    color: #01991a;
+  }
+  p {
+	text-align: justify;  
+  }
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        line-height: 40px;
+        text-align: left;
+    }
+    h1 {
+        text-align: left;
+    }
+	header img {
+	float: right;
+	max-width: 80px;
+}
+}
